@@ -1,6 +1,6 @@
 {
   "name": "rescript-future",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "repository": "https://github.com/bloodyowl/rescript-future",
   "scripts": {
     "build": "rescript",
@@ -13,12 +13,10 @@
   ],
   "author": "bloodyowl <bloodyowl@icloud.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "@rescript/core": "^1.6.1"
-  },
+ 
   "devDependencies": {
-    "@rescript/core": "^1.6.1",
-    "rescript": "^11.1.0",
+    "rescript": "12.0.0-beta.4",
     "rescript-test": "^7.0.0"
-  }
+  },
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }

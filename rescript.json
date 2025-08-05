@@ -1,6 +1,6 @@
 {
   "name": "rescript-future",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "sources": [
     {
       "dir": "src",
@@ -17,10 +17,8 @@
     "in-source": true
   },
   "suffix": ".mjs",
-  "bs-dependencies": ["@rescript/core"],
-  "bs-dev-dependencies": ["@rescript/core", "rescript-test"],
+  "dev-dependencies": [ "rescript-test"],
   "warnings": {
     "error": "+101"
-  },
-  "bsc-flags": ["-open RescriptCore"]
+  }
 }
